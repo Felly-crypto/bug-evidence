@@ -1,0 +1,8 @@
+> powershell -NoLogo -NoProfile -Command "$PROFILE"
+C:\Users\DELL\Documents\WindowsPowerShell\Microsoft.PowerShell_profile.ps1
+
+> cortex completion powershell --install --color never
+Completions already installed in C:\Users\DELL\Documents/PowerShell\Microsoft.PowerShell_profile.ps1
+
+If completions aren't working, restart your shell.
+

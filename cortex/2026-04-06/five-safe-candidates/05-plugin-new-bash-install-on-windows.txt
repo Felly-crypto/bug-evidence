@@ -1,0 +1,64 @@
+> cd /d C:\Users\DELL\Desktop\ClaudeFelly\repro-workspaces\plugin-install-win-20260406 && cortex plugin new demo-plugin-install-win --color never
+Creating new plugin: Demo Plugin Install Win
+
+  Directory: C:\Users\DELL\Desktop\ClaudeFelly\repro-workspaces\plugin-install-win-20260406\demo-plugin-install-win
+
+  Author: Nathan
+
+  Template: Basic Rust
+
+
+
+Plugin created successfully!
+
+
+
+Next steps:
+
+  cd demo-plugin-install-win
+
+  cargo build --target wasm32-wasi --release
+
+  cortex plugin validate
+
+  cortex plugin dev --watch
+
+> cd /d C:\Users\DELL\Desktop\ClaudeFelly\repro-workspaces\plugin-install-win-20260406 && type demo-plugin-install-win\README.md
+# Demo Plugin Install Win
+
+
+
+A Cortex plugin
+
+
+
+## Building
+
+
+
+```bash
+
+cargo build --target wasm32-wasi --release
+
+```
+
+
+
+## Installing
+
+
+
+Copy the compiled WASM and manifest to your Cortex plugins directory:
+
+
+
+```bash
+
+mkdir -p ~/.cortex/plugins/demo-plugin-install-win
+
+cp target/wasm32-wasi/release/demo_plugin_install_win.wasm ~/.cortex/plugins/demo-plugin-install-win/plugin.wasm
+
+cp plugin.toml ~/.cortex/plugins/demo-plugin-install-win/
+
+```
+

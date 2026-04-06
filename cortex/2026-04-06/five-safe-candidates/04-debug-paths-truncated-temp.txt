@@ -1,0 +1,156 @@
+> cortex debug paths --color never
+Cortex Paths
+
+======================================================================
+
+Directory            Path                                       Status
+
+----------------------------------------------------------------------
+
+Cortex Home          C:\Users\DELL\.cortex                      exists
+
+                                                  (126.39 MB )
+
+Config               C:\Users\DELL\.cortex                      exists
+
+                                                  (126.39 MB )
+
+Data                 C:\Users\DELL\.cortex                      exists
+
+                                                  (126.39 MB )
+
+Cache                C:\Users\DELL\.cortex\cache               missing
+
+Sessions             C:\Users\DELL\.cortex\sessions             exists
+
+                                                      (738 B )
+
+Plugins              C:\Users\DELL\.cortex\plugins              exists
+
+Skills               C:\Users\DELL\.cortex\skills              missing
+
+Agents               C:\Users\DELL\.cortex\agents              missing
+
+MCP                  C:\Users\DELL\.cortex\mcp                 missing
+
+Logs                 C:\Users\DELL\.cortex\logs                missing
+
+Snapshots            C:\Users\DELL\.cortex\snapshots            exists
+
+                                                  (126.38 MB )
+
+Temp                 ...sers\DELL\AppData\Local\Temp\Cortex    missing
+
+> cortex debug paths --json --color never
+{
+
+  "cortex_home": {
+
+    "path": "C:\\Users\\DELL\\.cortex",
+
+    "exists": true,
+
+    "size_bytes": 132532629
+
+  },
+
+  "config_dir": {
+
+    "path": "C:\\Users\\DELL\\.cortex",
+
+    "exists": true,
+
+    "size_bytes": 132532629
+
+  },
+
+  "data_dir": {
+
+    "path": "C:\\Users\\DELL\\.cortex",
+
+    "exists": true,
+
+    "size_bytes": 132532629
+
+  },
+
+  "cache_dir": {
+
+    "path": "C:\\Users\\DELL\\.cortex\\cache",
+
+    "exists": false
+
+  },
+
+  "sessions_dir": {
+
+    "path": "C:\\Users\\DELL\\.cortex\\sessions",
+
+    "exists": true,
+
+    "size_bytes": 738
+
+  },
+
+  "plugins_dir": {
+
+    "path": "C:\\Users\\DELL\\.cortex\\plugins",
+
+    "exists": true,
+
+    "size_bytes": 0
+
+  },
+
+  "skills_dir": {
+
+    "path": "C:\\Users\\DELL\\.cortex\\skills",
+
+    "exists": false
+
+  },
+
+  "agents_dir": {
+
+    "path": "C:\\Users\\DELL\\.cortex\\agents",
+
+    "exists": false
+
+  },
+
+  "mcp_dir": {
+
+    "path": "C:\\Users\\DELL\\.cortex\\mcp",
+
+    "exists": false
+
+  },
+
+  "logs_dir": {
+
+    "path": "C:\\Users\\DELL\\.cortex\\logs",
+
+    "exists": false
+
+  },
+
+  "snapshots_dir": {
+
+    "path": "C:\\Users\\DELL\\.cortex\\snapshots",
+
+    "exists": true,
+
+    "size_bytes": 132523199
+
+  },
+
+  "temp_dir": {
+
+    "path": "C:\\Users\\DELL\\AppData\\Local\\Temp\\Cortex",
+
+    "exists": false
+
+  }
+
+}
+

@@ -1,0 +1,27 @@
+> cortex debug config --color never
+Resolved Configuration
+
+==================================================
+
+  Model:       claude-opus-4-5-20251101
+
+  Provider:    cortex (routes to model's underlying provider)
+
+  CWD:         C:\Users\DELL\Desktop\ClaudeFelly
+
+  Cortex Home: C:\Users\DELL\.cortex
+
+
+
+Config File Locations
+
+----------------------------------------
+
+  Global: C:\Users\DELL\.cortex\config.toml (exists)
+
+  Local:  C:\Users\DELL\Desktop\ClaudeFelly\.cortex/config.toml (optional, not configured)
+
+
+
+Tip: Use --json for machine-readable output, --env for environment variables.
+

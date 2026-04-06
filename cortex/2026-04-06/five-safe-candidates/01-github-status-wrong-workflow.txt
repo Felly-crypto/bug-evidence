@@ -1,0 +1,31 @@
+> cd /d C:\Users\DELL\Desktop\cortex && dir /b .github\workflows
+ci.yml
+
+homebrew.yml
+
+publish-r2.yml
+
+release.yml
+
+version-bump.yml
+
+winget.yml
+
+> cd /d C:\Users\DELL\Desktop\cortex && findstr /n /c:"formula-name: cortex" .github\workflows\homebrew.yml
+32:          formula-name: cortex
+
+> cortex github status --path C:\Users\DELL\Desktop\cortex --json --color never
+{
+
+  "is_git_repo": true,
+
+  "github_dir_exists": true,
+
+  "workflow_installed": true,
+
+  "workflow_path": "C:\\Users\\DELL\\Desktop\\cortex\\.github\\workflows\\homebrew.yml",
+
+  "features": []
+
+}
+
