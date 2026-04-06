@@ -1,0 +1,33 @@
+Show details for a specific agent
+
+Usage: cortex.exe agent show [OPTIONS] <NAME>
+
+Arguments:
+  <NAME>
+          Name of the agent to display
+
+Options:
+      --json
+          Output as JSON
+
+      --model <MODEL>
+          Show how agent would work with a specific model override
+
+  -v, --verbose
+          Enable verbose output (same as --log-level debug)
+
+      --trace
+          Enable trace-level logging for debugging
+
+      --color <COLOR>
+          Control color output: auto (default), always, or never
+
+          Possible values:
+          - auto:   Automatically detect if output is a terminal
+          - always: Always output with colors
+          - never:  Never output with colors
+          
+          [default: auto]
+
+  -h, --help
+          Print help (see a summary with '-h')
