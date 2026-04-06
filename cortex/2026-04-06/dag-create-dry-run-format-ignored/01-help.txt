@@ -1,0 +1,42 @@
+Create a new task DAG from a specification file
+
+Usage: cortex.exe dag create [OPTIONS] --file <FILE>
+
+Options:
+  -f, --file <FILE>
+          Path to task specification file (YAML or JSON)
+
+  -i, --id <ID>
+          Custom DAG ID (generated if not provided)
+
+  -v, --verbose
+          Enable verbose output (same as --log-level debug)
+
+      --dry-run
+          Validate only, don't save
+
+      --trace
+          Enable trace-level logging for debugging
+
+      --color <COLOR>
+          Control color output: auto (default), always, or never
+
+          Possible values:
+          - auto:   Automatically detect if output is a terminal
+          - always: Always output with colors
+          - never:  Never output with colors
+          
+          [default: auto]
+
+      --format <FORMAT>
+          Output format
+
+          Possible values:
+          - text:    Human-readable formatted output with colors
+          - json:    JSON output for machine processing
+          - compact: Compact single-line format for scripting
+          
+          [default: text]
+
+  -h, --help
+          Print help (see a summary with '-h')

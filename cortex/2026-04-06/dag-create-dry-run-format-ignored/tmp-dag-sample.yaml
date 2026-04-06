@@ -1,0 +1,11 @@
+name: test-dag
+description: Test DAG
+tasks:
+  - name: setup
+    description: Setup environment
+    command: echo setup
+  - name: build
+    description: Build project
+    command: echo build
+    depends_on:
+      - setup
