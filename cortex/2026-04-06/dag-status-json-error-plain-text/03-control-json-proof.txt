@@ -1,0 +1,10 @@
+{
+  "all_succeeded": false,
+  "id": "hunt-dag-1",
+  "is_complete": false,
+  "status_counts": {
+    "pending": 1,
+    "ready": 1
+  },
+  "total_tasks": 2
+}

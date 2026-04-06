@@ -1,0 +1,37 @@
+Show the status of a DAG
+
+Usage: cortex.exe dag status [OPTIONS] <ID>
+
+Arguments:
+  <ID>
+          DAG ID to check
+
+Options:
+      --format <FORMAT>
+          Output format
+
+          Possible values:
+          - text:    Human-readable formatted output with colors
+          - json:    JSON output for machine processing
+          - compact: Compact single-line format for scripting
+          
+          [default: text]
+
+  -v, --verbose
+          Show detailed task information
+
+      --trace
+          Enable trace-level logging for debugging
+
+      --color <COLOR>
+          Control color output: auto (default), always, or never
+
+          Possible values:
+          - auto:   Automatically detect if output is a terminal
+          - always: Always output with colors
+          - never:  Never output with colors
+          
+          [default: auto]
+
+  -h, --help
+          Print help (see a summary with '-h')
